@@ -14,11 +14,11 @@ with open('HISTORY.md', encoding='utf-8') as history_file:
 install_requires = [
     'packaging',
     'numpy>=1.18.0,<2',
-    'pandas>=1.1,<1.1.5',
+    'pandas>=1.1,<1.2.4',
     'scikit-learn>=0.23,<1',
     'torch>=1.4,<2',
     'torchvision>=0.5.0,<1',
-    'rdt>=0.4.1,<0.5',
+    'rdt>=0.4.1,<0.5.4',
 ]
 
 setup_requires = [
